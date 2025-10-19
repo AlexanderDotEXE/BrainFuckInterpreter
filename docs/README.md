@@ -22,7 +22,7 @@ Dieses Dokument bietet eine Übersicht über die Struktur und Funktionsweise des
   - `getCurrentBandValue()`, `setCurrentBandValue()`
   - `increaseIndex()`, `decreaseIndex()`
 
-![Band Class Diagram](Band.png)
+![Band Class Diagram](export/Band.png)
 
 ---
 
@@ -38,7 +38,7 @@ Dieses Dokument bietet eine Übersicht über die Struktur und Funktionsweise des
   - `execute()`: Führt ein Programm aus
   - Private Methoden: `loopBegin()`, `loopEnd()`, `output()`, `isPrintableChar()`, etc.
 
-![BrainfuckMachine Class Diagram](BrainfuckMachine.png)
+![BrainfuckMachine Class Diagram](export/BrainfuckMachine.png)
 
 ---
 
@@ -49,7 +49,7 @@ Dieses Dokument bietet eine Übersicht über die Struktur und Funktionsweise des
   - `cleanCode(line: string)`: Entfernt Kommentare und ungültige Zeichen
   - `loadProgramFromFile(filePath: string)`: Lädt das gesamte Programm und bereinigt es
 
-![ProgramLoader Diagram](ProgramLoader.png)
+![ProgramLoader Diagram](export/ProgramLoader.png)
 
 ---
 
